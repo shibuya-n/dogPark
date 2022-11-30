@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1a7d4af-3405-4d79-aba5-eb4702c12881" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/AnimalAge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalAge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalAge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/parkAnimals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parkAnimals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/parkDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parkDog.java" afterDir="false" />
     </list>
@@ -39,9 +39,18 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="run" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Park" />
+      <module name="DogPark" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

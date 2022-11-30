@@ -5,6 +5,8 @@ public abstract class Animal {
     public String breed;
 
 
+
+
     public Animal(int cuteness, int age, String name, String breed) {
 
         this.cuteness = cuteness;

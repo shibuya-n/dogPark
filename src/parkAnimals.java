@@ -1,7 +1,9 @@
 public class parkAnimals extends Animal implements AnimalAge{
-    public static String[] breedList = {"Pigeon", "Plane", "Superman", "Deer", "Pizza", "Peregrine Falcon", "Stork", "Seagull", "Raccoon", "Squirrel"};
+    public static String[] breedList = {"Pigeon", "Plane", "Superman", "Deer", "Pizza", "Peregrine Falcon", "Stork", "Seagull", "Raccoon", "Squirrel", "???"};
 
-    public static String[] nameList = {"Geremy", "Gerald", "Geoffry", "Rover", "Ethan", "Victor", "Terrance", "Jeremy", "Justin", "Just-in"};
+    public static String[] nameList = {"Geremy", "Gerald", "Geoffry", "Rover", "Ethan", "Victor", "Terrance", "Jeremy", "Justin", "Just-in", "???"};
+
+    public static int multiAge = 100;
     
     public parkAnimals(int cuteness, int age, String name, String breed) {
         super(cuteness, age, name, breed);
@@ -9,14 +11,14 @@ public class parkAnimals extends Animal implements AnimalAge{
     }
     public void calculateHumanAge() {
         int humanAge = age * 100;
-        System.out.println("Human Age = " + humanAge);
+        System.out.println("Human Age = " + (age * multiAge));
     }
 
         public static void randomCritters() {
-            int critterNum = ((int) Math.floor(Math.random() * nameList.length));
+            int critterNum = ((int) Math.floor(Math.random() * nameList.length) + 1);
             System.out.println("You also found other animals!!!");
 
-            for (int i = 1; i <=critterNum; i++) {
+            for (int i = 1; i <= critterNum; i++) {
                 int randomName = ((int) Math.floor(Math.random() * nameList.length));
                 int randomAge = ((int) Math.floor(Math.random() * 100));
                 int randomBreed = ((int) Math.floor(Math.random() * breedList.length));

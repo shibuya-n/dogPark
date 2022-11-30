@@ -3,13 +3,15 @@ public class parkDog extends Animal implements AnimalAge{
 
     public static String[] nameList = {"Geremy", "Gerald", "Geoffry", "Rover", "Ethan", "Victor", "Terrance", "Jeremy"};
 
+    public static int multiAge = 100;
+
+
     public parkDog(int cuteness, int age, String name, String breed) {
         super(cuteness, age, name, breed);
 
     }
     public void calculateHumanAge() {
-        int humanAge = age * 7;
-        System.out.println("Human Age = " + humanAge);
+        System.out.println("Human Age = " + (age * 7));
 
     }
     public static void randomDog() {
