@@ -24,7 +24,7 @@ public class parkAnimals extends Animal implements AnimalAge{
                 int randomBreed = ((int) Math.floor(Math.random() * breedList.length));
                 int randomCuteness = ((int) Math.floor(Math.random() * 10) + 1);
 
-                parkDog obj = new parkDog(randomCuteness, randomAge, nameList[randomName], breedList[randomBreed]);
+                parkAnimals obj = new parkAnimals(randomCuteness, randomAge, nameList[randomName], breedList[randomBreed]);
                 System.out.println("Animal #" + i + " = " + obj.name);
                 System.out.println("Animal Cuteness = " + obj.cuteness);
                 System.out.println("Species = " + obj.breed);
